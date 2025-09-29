@@ -1,29 +1,29 @@
 package com.tnsif.ConstructorExample;
 
 public class Student {
-	private int Sid;
+	private int sid;
 	private String sname;
 	//Default Constructor
 	public Student()
 	{
-		this.Sid=100;
+		this.sid=100;
 		this.sname="IFET Student";
 	}
 	//parameterized constructor
 	public Student(int sid,String sname)
 	{
-		this.Sid=Sid;
+		this.sid=sid;
 		this.sname=sname;
 	}
 	@Override
 	public String toString() {
-		return "Student [Sid=" + Sid + ", sname=" + sname + "]";
+		return "Student [sid=" + sid + ", sname=" + sname + "]";
 	}
 	public int getSid() {
-		return Sid;
+		return sid;
 	}
 	public void setSid(int sid) {
-		Sid = sid;
+		sid = sid;
 	}
 	public String getSname() {
 		return sname;
