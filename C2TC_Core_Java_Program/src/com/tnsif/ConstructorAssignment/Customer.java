@@ -1,4 +1,4 @@
-package com.tnsif.ConstructorExample;
+package com.tnsif.ConstructorAssignment;
 
 public class Customer {
 	private int sid;
@@ -40,6 +40,5 @@ public class Customer {
 	public void setScity(String scity) {
 		this.scity = scity;
 	}
-	
 
 }
