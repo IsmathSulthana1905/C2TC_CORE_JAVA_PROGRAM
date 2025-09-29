@@ -19,11 +19,11 @@ public class Student {
 	public String toString() {
 		return "Student [sid=" + sid + ", sname=" + sname + "]";
 	}
-	public int getSid() {
+	public int getsid() {
 		return sid;
 	}
-	public void setSid(int sid) {
-		sid = sid;
+	public void setsid(int sid) {
+		this.sid = sid;
 	}
 	public String getSname() {
 		return sname;
