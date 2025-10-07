@@ -3,6 +3,18 @@ package com.tnsif.day5.inheritanceexample;
 public class College {
 	private String CollegeName;
 	private String Location;
+	//default constructor
+	public College()
+	{
+		this.CollegeName="IFET";
+		this.Location="Villupuram";
+	}
+	//parametrized constructor
+	public College(String CollegeName,String location)
+	{
+		this.CollegeName=CollegeName;
+		this.Location=location;
+	}
 	public String getCollegeName() {
 		return CollegeName;
 	}

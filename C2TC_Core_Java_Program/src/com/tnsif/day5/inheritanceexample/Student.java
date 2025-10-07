@@ -1,9 +1,16 @@
 package com.tnsif.day5.inheritanceexample;
-
 public class Student extends College {
 	private int sid;
 	private String sname;
 	private String course;
+	//parameterized constructor
+	public Student(String CollegeName, String location,int sid,String sname,String course)
+	{
+		super(CollegeName,location);//calling base class constructor
+		this.sid=sid;
+		this.sname=sname;
+		this.course=course;
+	}
 	public int getSid() {
 		return sid;
 	}
