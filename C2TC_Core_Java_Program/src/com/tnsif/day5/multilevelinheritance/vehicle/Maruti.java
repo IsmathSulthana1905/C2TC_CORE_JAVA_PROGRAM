@@ -1,11 +1,10 @@
-package com.tnsif.dayfive.multilevelinheritance.vehicle;
-
+package com.tnsif.day5.multilevelinheritance.vehicle;
 public class Maruti extends Car {
 	public Maruti() {
 		System.out.println("Class Maruti");
 	}
 
-	public void brand() {
+	public void brand () {
 		System.out.println("Brand: Maruti");
 	}
 	public void speed() {

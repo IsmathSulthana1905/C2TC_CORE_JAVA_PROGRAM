@@ -1,4 +1,4 @@
-package com.tnsif.dayfive.multilevelinheritance.vehicle;
+package com.tnsif.day5.multilevelinheritance.vehicle;
 
 public class Car {
 	public Car() {
@@ -8,6 +8,5 @@ public class Car {
 	public void vehicleType() {
 		System.out.println("Vehicle Type: Car");
 	}
-
 
 }
